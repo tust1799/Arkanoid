@@ -1,0 +1,14 @@
+Name: Quang Huy Nguyen
+Eid: qhn99
+Final Project: Arkanoid
+
+This project involves the creation of a classic game known as "Arkanoid," a single-player game where the player controls a paddle to bounce a ball and break bricks. The game consists of three main states: Name Input State, Game State, and End State. Players start by entering their name, proceed to play the game, and view their score upon completing the game. Key features include a Vaus paddle, bricks, balls, scoring, and a life system.
+
+Vaus class: Represents the player-controlled paddle. The paddle can be moved horizontally to interact with the ball.
+Brick class: Manages the layout of the bricks and their interactions with the ball.
+Balls class: Governs the ball's behavior, movement, and interactions with other game elements.
+
+Throughout the development process, I encountered some unanticipated challenges related to managing state transitions within the game and effectively handling collisions between different game elements. Another challenge was devising an efficient method to store and manage high scores. One of the challenges I encountered initially was that I was using ellipseMode(CENTER), but my collision detection was implemented based on the radius mode. This resulted in collisions appearing a little odd. Additionally, I used the checkCollision method for both the ball and the Vaus, which led to a peculiar collision occurring when the ball hit the bottom of the Vaus.
+
+I solely undertook the entire project, including the design, development, and testing of the game. This encompassed implementing the Vaus, Brick, and Balls classes, managing game state transitions, user input handling, and the display of game elements.
+
